@@ -22,9 +22,9 @@ public class MyGame2 extends JFrame {
 	
 	//load Images and add scenes
 	public void loadImages(){
-		bg = new ImageIcon("C:\\test\\background.jpg").getImage();
-		Image face1 = new ImageIcon("C:\\test\\face1.png").getImage();
-		Image face2 = new ImageIcon("C:\\test\\face2.png").getImage();
+		bg = new ImageIcon("Images\\background.jpg").getImage();
+		Image face1 = new ImageIcon("Images\\face1.png").getImage();
+		Image face2 = new ImageIcon("Images\\face2.png").getImage();
 		
 		a = new Animation();
 		a.addScene(face1, 250);
